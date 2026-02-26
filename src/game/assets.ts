@@ -13,90 +13,10 @@ export default {
 		src: new URL('../../assets/sprites/pressToContinueText/MM_pressanywhere.json', import.meta.url).href,
 		preload: true,
 	},
-	H1: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h1.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	H2: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h2.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	H3: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h3.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	H4: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h4.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	L1: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/l1.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	L5: {
-		type: 'sprite',
-		src: new URL('../../assets/sprites/l5.png', import.meta.url).href,
-	},
-	L2: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/l2.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	L3: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/l3.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	L4: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/l4.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	M: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols2/symbols2.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols2/M.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	S: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols2/symbols2.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols2/S.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
+	// Symbol Spine animations removed — using static sprites from symbolsStatic spritesheet
+	// Re-add here when custom Spine animations are created for the new symbols
+	// M and S Spine animations removed — using static sprites from symbolsStatic spritesheet
+	// Re-add here when custom Spine animations are created for the new Wild/Scatter symbols
 	explosion: {
 		type: 'spine',
 		src: {
